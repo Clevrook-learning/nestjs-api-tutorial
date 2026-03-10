@@ -2,7 +2,7 @@ import { Injectable } from "@nestjs/common";
 import { User, Bookmark } from "generated/prisma";
 import { PrismaService } from "src/prisma/prisma.service";
 
-@Injectable({})
+@Injectable()
 export class AuthService {
     constructor(private prisma: PrismaService){
 
