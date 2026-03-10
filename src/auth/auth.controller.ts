@@ -8,7 +8,7 @@ export class AuthController {
 
     @Post("signup")
     signUp(@Req() req: Request) {
-        console.log(req);
+        console.log(req.body);
         
         return this.authService.signUp();
     }
