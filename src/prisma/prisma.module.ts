@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { Global, Module } from '@nestjs/common';
+=======
+import { Module } from '@nestjs/common';
+>>>>>>> dto
 import { PrismaService } from './prisma.service';
 
 @Global()
